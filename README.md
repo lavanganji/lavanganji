@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there  Please check out my profile : 👋
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=lavanganji.visitor-badge&left_text=Thanks%20for%20Visiting%20Me%20!%20Count%20Increased%20to%20-->)
 
@@ -17,3 +17,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
