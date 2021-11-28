@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge&left_text=Thanks%20for%20Visiting%20Me%20!%20Count%20Increased%20to%20-->)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=lavanganji.visitor-badge&left_text=Thanks%20for%20Visiting%20Me%20!%20Count%20Increased%20to%20-->)
 
 
 <!--
