@@ -3,10 +3,11 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=lavanganji&color=blue&style=flat-square&label=Profile+Views)
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=lavanganji.lavanganji&title=Visitors)
 
+<!--
 <div align="center">
   <img src="https://count.getloli.com/get/@lavanganji?theme=rule34" alt="Visitor Count" />
 </div>
-
+-->
 
 <!--
 **lavanganji/lavanganji** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
