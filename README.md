@@ -1,6 +1,11 @@
-### Hi there  Please check out my profile : 👋
+### Hi there 👋 Please check out my profile!
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=lavanganji.visitor-badge&left_text=Thanks%20for%20Visiting%20Me%20!%20Count%20Increased%20to%20-->)
+![Profile Views](https://komarev.com/ghpvc/?username=lavanganji&color=blue&style=flat-square&label=Profile+Views)
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=lavanganji.lavanganji&title=Visitors)
+
+<div align="center">
+  <img src="https://count.getloli.com/get/@lavanganji?theme=rule34" alt="Visitor Count" />
+</div>
 
 
 <!--
