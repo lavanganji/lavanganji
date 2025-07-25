@@ -43,8 +43,9 @@ out/
 *.bak
 *~
 
-# Logs and databases
+# Logs and databases (exclude activity.log for profile tracking)
 *.log
+!activity.log
 *.sql
 *.sqlite
 
