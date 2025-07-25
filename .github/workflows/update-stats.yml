@@ -1,0 +1,32 @@
+name: Update README Stats
+
+on:
+  schedule:
+    # Runs every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update GitHub Stats
+        run: |
+          echo "🔄 Updating GitHub stats..."
+          
+          # Force refresh of GitHub stats
+          curl -s "https://github-readme-stats.vercel.app/api?username=lavanganji&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800"
+          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=lavanganji&theme=tokyonight&cache_seconds=1800"
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=lavanganji&layout=compact&theme=tokyonight&cache_seconds=1800"
+          
+          echo "✅ Stats refresh completed!"
+          
+      - name: Update Activity Graph
+        run: |
+          echo "🔄 Updating activity graph..."
+          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=lavanganji&theme=tokyo-night&cache_seconds=1800"
+          echo "✅ Activity graph refresh completed!"

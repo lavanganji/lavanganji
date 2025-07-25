@@ -1,0 +1,31 @@
+name: Update GitHub Profile Views
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-profile-views:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate Profile Views Badge
+        run: |
+          echo "Updating profile views..."
+          # This workflow ensures the profile views badge stays updated
+          curl -s "https://komarev.com/ghpvc/?username=lavanganji&style=flat-square&color=blue"
+          
+      - name: Update Last Activity
+        run: |
+          echo "Profile updated on: $(date)" >> activity.log
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add activity.log
+          git diff --staged --quiet || git commit -m "Update activity log"
+          git push
