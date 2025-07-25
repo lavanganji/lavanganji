@@ -102,11 +102,7 @@ Describe your third project, focusing on innovation and technical challenges sol
 **Tech Stack:** `Vue.js` `Firebase` `TypeScript` `Tailwind CSS`
 
 ## 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-- [How to Build Amazing GitHub Profiles](https://yourblog.com/post1)
-- [Best Practices for Clean Code](https://yourblog.com/post2)
-- [Getting Started with Open Source](https://yourblog.com/post3)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [Mock Interview With TARGET SDE](https://dev.to/lavanganji/mock-interview-with-target-sde-jhn)- [Calif Coder - Youtube Channel Intro](https://dev.to/lavanganji/calif-coder-youtube-channel-intro-12kg)- [Implementation of STACK in java.](https://dev.to/lavanganji/stack-344i)<!-- BLOG-POST-LIST:END -->
 
 ## 🤝 Connect with Me
 
